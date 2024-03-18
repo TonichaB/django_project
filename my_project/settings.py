@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-dlqr2lm@-_5_!(7g8_pdiowfbtca%semwy)+30*71vakoenprs'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['8000-tonichab-django-project-tekmdbcc5s.us1.codeanyapp.com']
+ALLOWED_HOSTS = ['8000-tonichab-django-project-tekmdbcc5s.us1.codeanyapp.com', '.herokuapp.com']
 
 
 # Application definition
